@@ -1,5 +1,5 @@
 /*
-	Header file defining method to return absolute value.
+	Header file defining methods to return absolute value and find square of.
 */
 
 // Header guard
@@ -13,6 +13,12 @@ T absolute(T number)
 		return -number;
 	else
 		return number;
+}
+
+template <typename T>
+T square(const T& number)
+{
+	return number * number;
 }
 
 #endif // !MYMATH_H
