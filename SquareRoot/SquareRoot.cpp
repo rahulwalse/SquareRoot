@@ -1,5 +1,6 @@
 /*
-*	Source file for implementation of method for finding square root of given number.
+*	Source file for implementation of method for finding square root of given number using
+	averaging formula to reduce the number of iterations.
 */
 
 #include "SquareRoot.h"
