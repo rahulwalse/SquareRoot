@@ -26,13 +26,11 @@ int main()
 		{
 			case 1:	std::cout << "\nEnter a number to find square root of: ";
 					std::cin >> number;
-					//std::cout << "\nSquare root of " << number << " is " << square_root(number) << std::endl;
 					std::cout << '\n' << squareRootSymbol << number << " = " << square_root(number) << '\n';
 					break;
 
 			case 2: std::cout << "\nEnter a number to find square root of: ";
 					std::cin >> number;
-					//std::cout << "\nSquare root of " << number << " is " << square_root_iterative(number) << std::endl;
 					std::cout << '\n' << squareRootSymbol << number << " = " << square_root_iterative(number) << '\n';
 					break;
 
