@@ -127,7 +127,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="GeometricMean.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="NthRoot.cpp" />
     <ClCompile Include="SquareRoot.cpp" />
     <ClCompile Include="SquareRootIterative.cpp" />
   </ItemGroup>
