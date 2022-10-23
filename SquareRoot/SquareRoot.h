@@ -8,5 +8,7 @@
 
 double square_root(const double);
 double square_root_iterative(const double&);
+double geometric_mean(const int&);
+double nth_root(const double&, const double&);
 
 #endif // !SQUAREROOT_H
