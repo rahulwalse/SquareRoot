@@ -10,7 +10,7 @@
 int main()
 {
 	bool stay = true;
-	int option = 0;
+	int option = 0, totalNumbers = 0;
 	double number = 0;
 	char squareRootSymbol = 251;
 
@@ -18,7 +18,7 @@ int main()
 	while (stay)
 	{
 		std::cout << "\n1. Find square root of a number\n2. Find square root of a number (high iterations)";
-		std::cout << "\n3. Exit";
+		std::cout << "\n3. Find Geometric Mean for n numbers\n4. Exit";
 		std::cout << "\nChoose an option: ";
 		std::cin >> option;
 
@@ -34,7 +34,12 @@ int main()
 					std::cout << '\n' << squareRootSymbol << number << " = " << square_root_iterative(number) << '\n';
 					break;
 
-			case 3:	std::cout << "\nExiting the program...\n";
+			case 3:	std::cout << "\nEnter the total numbers in set: ";
+					std::cin >> totalNumbers;
+					std::cout << "\nGeometric Mean = " << geometric_mean(totalNumbers) << '\n';
+					break;
+
+			case 4:	std::cout << "\nExiting the program...\n";
 					stay = false;
 					break;
 
