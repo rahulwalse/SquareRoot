@@ -10,5 +10,6 @@ double square_root(const double);
 double square_root_iterative(const double&);
 double geometric_mean(const int&);
 double nth_root(const double&, const double&);
+int find_closest_integer(const int&);
 
 #endif // !SQUAREROOT_H
