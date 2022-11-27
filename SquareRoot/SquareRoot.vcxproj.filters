@@ -30,6 +30,9 @@
     <ClCompile Include="NthRoot.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ClosestInteger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="SquareRoot.h">
