@@ -19,7 +19,7 @@ int main()
 	{
 		std::cout << "\n1. Find square root of a number\n2. Find square root of a number (high iterations)";
 		std::cout << "\n3. Find Geometric Mean for n numbers\n4. Find closest integer x for given integer i such that x^2 > i.";
-		std::cout << "\n5. Exit";
+		std::cout << "\n5. Find reciprocal of a number iteratively\n6. Exit";
 		std::cout << "\nChoose an option: ";
 		std::cin >> option;
 
@@ -45,7 +45,12 @@ int main()
 					std::cout << "\nClosest integer to " << number << " is " << find_closest_integer(number) << ".\n";
 					break;
 
-			case 5:	std::cout << "\nExiting the program...\n";
+			case 5:	std::cout << "\nNOTE: This algorithm uses Newton Raphson iterative formula\nEnter a number: ";
+					std::cin >> number;
+					std::cout << "\nReciprocal of " << number << " = " << iterative_reciprocal(number) << '\n';
+					break;
+
+			case 6:	std::cout << "\nExiting the program...\n";
 					stay = false;
 					break;
 
